@@ -1,0 +1,23 @@
+{
+  "name": "devbooks-api",
+  "version": "1.0.0",
+  "description": "API REST da atividade prática avaliativa A1 - Programação para WEB II",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
